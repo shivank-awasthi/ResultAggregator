@@ -1,6 +1,6 @@
 import requests
-# Python Script to get case details of
-# Supreme Court for a given set of parameters.
+# Python Script to get roll number wise
+# Latest semester examination results.
 # @uthor: Shivank Awasthi
 # TimeStamp: 13th February, 2017 17:33
 from bs4 import BeautifulSoup
@@ -27,8 +27,4 @@ while(rollno<=erollno):
     rollno = int(rollno)
     rollno = rollno+200000000
 print("List is complete")
-#print(soupBody.prettify())
-# additional statements for testing of function
 
-#test = get_case_status(selType,caseNo,selYear)
-#print(test)
